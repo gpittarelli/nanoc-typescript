@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = 'nanoc-typescript'
   gem.require_paths = ['lib']
-  gem.version       = Nanoc::Filters::Gzip::VERSION
+  gem.version       = '0.0.1.1'
 
   gem.add_dependency 'nanoc',          '>= 3.4.0'
   gem.add_dependency 'typescript',     '>= 0.1.1'
